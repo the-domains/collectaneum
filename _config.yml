@@ -2,6 +2,7 @@ name: Collectaneum
 favicon: null
 layout_spectrum: 0.4131446089595556
 typography_spectrum: 0.3060680632479489
+title: site title here
 cta:
   domain: null
   bucket: null
