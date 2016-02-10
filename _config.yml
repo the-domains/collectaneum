@@ -1,29 +1,41 @@
-name: Collectaneum
-favicon: null
-layout_spectrum: 0.75985
-typography_spectrum: 0.87504
 title: site title here
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.7731872
+  brandStrength: 0.4375
+  lightness: 0.75
+  brandColors:
+    - '#011318'
+    - '#394B51'
+    - '#788A90'
+    - '#015D77'
+    - '#53A1B6'
+  rhythmicContrast: 1
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: Collectaneum
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
-  brandStrength: 0.4375
-  lightness: 0.75
-  saturation: 1
-  rhythmicContrast: 1
-purpose: []
+typography_spectrum: 0.87504
+layout_spectrum: 0.7799326
